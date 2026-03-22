@@ -12,6 +12,10 @@
     order: 1;
   }
 
+  img {
+  width: 75px;
+}
+
   /* ICONS */
 
   .icons {
@@ -46,12 +50,11 @@
 
   .search-bar {
     order: 2;
-    width: 100%;
+    margin: 0.0px;
   }
 
   .search-bar input {
-    width: 100%;
-    padding: 0.6rem;
+    padding: 0.1px;
   }
 
   /* MENU TOGGLE */
