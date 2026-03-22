@@ -131,14 +131,13 @@ nav a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #ffcc00;
+  background-color: transparent;
   border: none;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 22px;
+  color: #25d366;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 40px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .cate-gories {
@@ -244,7 +243,7 @@ nav a:hover {
 .footer-container {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-  gap: 40px;
+  gap: 135px;
 }
 
 .footer-col h3 {
