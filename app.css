@@ -15,11 +15,11 @@
     bottom: 0px;
     width: 100%;
     gap: 60px;
-    right: 5px;
+    right: 0px;
+    background-color: #ddd;
     justify-content: center;
     font-weight: bold;
     padding: 5px;
-    border-radius: 50px;
   }
 
   /* MENU */
