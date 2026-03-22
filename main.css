@@ -130,7 +130,8 @@ nav a:hover {
 .chat-btn {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 5px;
+  bottom: 50px;
   background-color: transparent;
   border: none;
   color: #25d366;
