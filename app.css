@@ -1,5 +1,4 @@
 @media (max-width: 768px) {
-  /* HEADER */
 
   header {
     display: flex;
@@ -10,27 +9,27 @@
 
   .logo {
     order: 1;
+    padding-right: 15px;
   }
 
   img {
-    width: 75px;
+    width: 80px;
   }
-
-  /* ICONS */
 
   .icons {
     position: fixed;
-    bottom: 0px;
-    width: 100%;
+    bottom: 8px;
+    width: 80%;
     gap: 60px;
-    right: 0px;
-    background-color: #ddd;
+    background: #ddd;
     justify-content: center;
     font-weight: bold;
     font-size: 22px;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    left: 10%;
   }
-
-  /* MENU */
 
   nav {
     order: 3;
@@ -45,8 +44,6 @@
     padding: 0.5rem 0.01rem;
   }
 
-  /* SEARCH BAR */
-
   .search-bar {
     order: 2;
     margin: 0px;
@@ -56,13 +53,9 @@
     padding: 0.1px;
   }
 
-  /* MENU TOGGLE */
-
   nav.show-menu {
     display: flex;
   }
-
-  /* CATEGORY SECTION */
 
   .categories {
     grid-template-columns: 1fr;
@@ -74,8 +67,6 @@
     height: auto;
   }
 
-  /* HERO SECTION */
-
   .hero {
     flex-direction: column;
     gap: 15px;
@@ -86,8 +77,6 @@
     width: 100%;
     border-radius: 8px;
   }
-
-  /* OFFER CARDS */
 
   .category-container {
     grid-template-columns: 1fr;
@@ -102,8 +91,6 @@
     width: 100%;
   }
 
-  /* BANNER */
-
   .banner {
     padding: 20px;
     text-align: center;
@@ -117,7 +104,6 @@
     font-size: 14px;
   }
 
-  /* FOOTER */
   .footer {
     padding: 60px 15px;
   }
@@ -134,14 +120,10 @@
     padding: 15px 0px;
   }
 
-  /* Hide list initially */
-
   .footer-col ul {
     display: none;
     padding-top: 10px;
   }
-
-  /* Footer title */
 
   .footer-col h4 {
     display: flex;
@@ -151,14 +133,11 @@
     font-size: 16px;
   }
 
-  /* Arrow */
-
   .footer-col h4::after {
     content: "▼";
     font-size: 12px;
   }
 
-  /* Active */
 
   .footer-col.active ul {
     display: block;
@@ -167,8 +146,6 @@
   .footer-col.active h4::after {
     transform: rotate(180deg);
   }
-
-  /* Footer bottom */
 
   .footer-bottom {
     flex-direction: column;
